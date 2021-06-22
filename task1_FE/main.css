@@ -1,0 +1,47 @@
+input[type=text], [type=number] {
+    width: 200px;
+    padding: 5px;
+    margin: 40px 30px;
+    border-radius: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+input[type=radio] {
+    margin-top: 15px;
+}
+.inputfield {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+fieldset {
+    margin: 0 30px;
+    width: 150px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    border-radius: 4px;
+}
+.blocks1, .blocks2 {
+    display: flex;
+}
+
+fieldset.second {
+    margin-top: 40px;
+    padding-bottom: 100px;
+}
+fieldset.fourth {
+    margin-top: 40px;
+
+}
+fieldset.fifth {
+    margin-top: 15px;
+    padding-top: 1px;
+    padding-right: 250px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+.lastblock {
+margin: 0 20px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>task1 frontend</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+<form>
+    <div class="inputfield">
+        <input type="number" name="number" id="numberId" placeholder="Number"><br>
+        <input type="text" name="converted" id="convertedId" placeholder="Converted" disabled><br>
+    </div>
+    <div class="blocks1">
+        <fieldset id="naiGroupId">
+            <legend>NAI</legend>
+            <input type="radio" name="nai" value="national" checked> National<br>
+            <input type="radio" name="nai" value="unknown"> Unknown<br>
+            <input type="radio" name="nai" value="nationalSignificant">National significant<br>
+            <input type="radio" name="nai" value="international">International<br>
+        </fieldset>
+
+        <fieldset class="third" id="screeningGroupId">
+            <legend>Screening</legend>
+            <input type="radio" name="screening" value="notVerified" checked>Not Verified<br>
+            <input type="radio" name="screening" value="verifiedAndPassed">Verified and passed<br>
+            <input type="radio" name="screening" value="verifiedAndField">Verified and field<br>
+            <input type="radio" name="screening" value="networkProvided">Network provided<br>
+        </fieldset>
+    </div>
+
+    <div class="blocks2">
+        <fieldset class="second" id="presentationGroupId">
+            <legend>Presentation</legend>
+            <input type="radio" name="presentation" value="allowed1" checked> Allowed<br>
+            <input type="radio" name="presentation" value="restricted"> Restricted<br>
+            <input type="radio" name="presentation" value="notAvailable">Not available<br>
+        </fieldset>
+
+        <fieldset class="fourth" id="numberingPlanGroupId">
+            <legend>Numbering Plan</legend>
+            <input type="radio" name="numberingPlan" value="isdn" checked>ISDN<br>
+            <input type="radio" name="numberingPlan" value="daya">Daya<br>
+            <input type="radio" name="numberingPlan" value="telex">Telex<br>
+        </fieldset>
+    </div>
+    <div class="lastblock" id="routingGroupId">
+        <fieldset class="fifth">
+            <legend>Routing</legend>
+            <input type="radio" name="routing" value="allowed2" checked>Allowed<br>
+            <input type="radio" name="routing" value="notAllowed">Not allowed<br>
+        </fieldset>
+    </div>
+</form>
+<script src="main.js"></script>
+</body>
+</html>
